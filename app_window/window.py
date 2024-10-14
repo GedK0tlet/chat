@@ -22,3 +22,4 @@ text_box.pack()
 button_send.pack()
 
 window.mainloop()
+https://github.com/GedK0tlet/chat
