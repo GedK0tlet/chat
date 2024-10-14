@@ -22,21 +22,3 @@ text_box.pack()
 button_send.pack()
 
 window.mainloop()
-
-# from tkinter import *
-#
-# root = Tk()
-# canvas = Canvas(root)
-# canvas.pack()
-#
-# lst = []
-# y = 0
-# for i in range(1, 100):
-#     label = Label(canvas, text="File number " + str(i), font=("Courier", 44), compound=RIGHT)
-#     canvas.create_window(0, y, window=label, anchor=NW)
-#     y += 60
-#
-# scrollbar = Scrollbar(canvas, orient=VERTICAL, command=canvas.yview)
-# scrollbar.place(relx=1, rely=0, relheight=1, anchor=NE)
-# canvas.config(yscrollcommand=scrollbar.set, scrollregion=(0, 0, 0, y))
-# root.mainloop()
